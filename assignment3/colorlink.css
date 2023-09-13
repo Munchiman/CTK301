@@ -1,0 +1,71 @@
+h1 {
+    color: red;
+    background-color: aqua;
+}
+
+.makepurple {
+    color:purple; 
+}
+
+h2 {
+    color:darkgreen;
+    background-color: yellow;
+}
+.makebrown {
+    color:brown;
+}
+
+h3 {
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+h4 {
+    color: cyan;
+    background-color: black;
+}
+
+.makegreen {
+    color: green;
+    background-color: burlywood;
+}
+
+.makegold {
+    color: gold;
+}
+
+.makeorange {
+    color: orange;
+}
+
+.makeindigo {
+    color: indigo;
+}
+
+.makeorangered {
+    color: orangered;
+}
+
+.makepink {
+    color: pink;
+}
+
+#twoleveldiv {
+    background-color: black;
+}
+
+#threeleveldiv {
+    background-color: lightcoral;
+}
+
+a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
