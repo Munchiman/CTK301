@@ -1,0 +1,44 @@
+#makeskyblue {
+    background-color: aqua;
+}
+
+.makewhite {
+    color: white;
+}
+a {
+    color: green; 
+    text-decoration: none;
+  }
+
+  
+  a:hover {
+    color: red; text-decoration: underline;
+  }        
+
+  .makeblue {
+    color: blue;
+  }
+.makegold {
+    color: gold;
+}
+
+h3 {
+    background-color: yellow;
+}
+.makered {
+    color: red;
+}
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.greenbg {
+    background-color: green;
+}
+h5 {
+    color: red;
+}
+#makeyellow {
+    background-color: yellow;
+}
