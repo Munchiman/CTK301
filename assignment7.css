@@ -1,0 +1,172 @@
+h1 {
+    border: 3px solid navy;
+    color: lightblue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(lightblue, blue);
+    grid-column: span 12;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+}
+h1 a {
+    color: lightblue;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    border: 3px solid navy;
+    width: 310px;
+    padding: 0;
+    background-image: linear-gradient(lightblue, blue);
+    color: white;
+    display: inline-block;
+}
+
+nav li a {
+color: white;
+text-decoration: none;
+display: block;
+padding: 20px;
+}
+
+footer {
+    background-color: red;
+    grid-column: span 12;
+    border-top: 4px solid darkblue;
+}
+
+aside {
+    background-color: lightblue;
+    grid-column: span 4;
+}
+
+h2 {
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mainbox {
+    margin: 1em auto;
+    padding: 0;
+  width: 960px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: white;
+    border: 5px solid darkblue;
+}
+
+nav {
+ grid-column: span 12;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    grid-column: span 12;
+}
+
+main {
+    grid-column: span 8;
+    margin-left: 8px;
+}
+
+body {
+    background-color: grey;
+}
+
+.explosion {
+    float: left;
+    border: 3px solid blue;
+    margin-right: 10px;
+}
+
+nav ul a:hover {
+color: white;
+}
+
+nav ul a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.pbold {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+main a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rocks {
+    float: right;
+    padding: 0;
+    border: 3px solid blue;
+    margin: 20px;
+}
+.evey {
+    width: 250px;
+    grid-column: span 2px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+}
+
+.way {
+    width: 250px;
+    grid-column: span 2px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+}
+
+.joy {
+    width: 250px;
+    grid-column: span 2px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+}
+
+.under {
+    grid-column: 5px;
+    
+}
+
+.eveydiv {
+    text-align: justify;
+    width: 250px;
+    padding: 20px;
+}
+
+.wayway {
+    text-align: justify;
+    width: 250px;
+    padding: 20px;
+}
+
+.joyus {
+    text-align: justify;
+    width: 250px;
+    padding: 20px;
+}
+
+.linker {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
