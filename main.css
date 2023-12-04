@@ -109,3 +109,15 @@ body {
      margin-bottom: 12px;
      padding-left: 15px;
    }
+
+   .Murder {
+    float: left;
+    width: 365px;
+    height: 250px;
+    margin: 20px;
+    grid-column: span 8;
+     margin-right: 24px;
+     margin-bottom: 12px;
+     padding-left: 15px;
+   }
+   
