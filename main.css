@@ -66,23 +66,27 @@ body {
   }    
   
   .lax {
-   width: 425px;
-   height: 250px;
-   margin: 20px;
+   width: 300px;
+   height: 300px;
+   margin: 30px;
    grid-column: span 8;
     margin-right: 24px;
     margin-bottom: 12px;
-    padding-left: 15px;
+    padding-left: 100px;
   }
   
   main {
     grid-column: span 8;
     padding: 10px;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 
   .roundedbox {
     padding: 10px;
+    margin: 20px;
     width: 250px;
     border: 1px solid #999;
     background-color: #ccc;
@@ -104,7 +108,7 @@ body {
     width: 365px;
     height: 250px;
     margin: 20px;
-    grid-column: span 6;
+    grid-column: span 1;
      margin-right: 24px;
      margin-bottom: 12px;
      padding-left: 15px;
@@ -112,12 +116,47 @@ body {
 
    .Murder {
     float: left;
-    width: 365px;
-    height: 250px;
+    width: 250px;
+    height: 235px;
     margin: 20px;
-    grid-column: span 8;
+    grid-column: span 1;
      margin-right: 24px;
      margin-bottom: 12px;
      padding-left: 15px;
    }
    
+   .perk {
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    grid-column: span 1;
+     margin-right: 24px;
+     margin-bottom: 12px;
+     padding-left: 15px;
+   }
+
+   .body 
+   {
+    text-align: center;
+    grid-column: span 5;
+    font-size: larger;
+   }
+
+
+   .Brain {
+    width: 250px;
+    height: 235px;
+    margin: 20px;
+    grid-column: span 1;
+     margin-right: 24px;
+     margin-bottom: 12px;
+     padding-left: 15px;
+     float: left;
+   }
+  
+   .Info {
+    grid-column: span 8;
+    text-align: center;
+    font-family: Agbalumo;
+   }
